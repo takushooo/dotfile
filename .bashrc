@@ -128,4 +128,4 @@ alias notes2pptx='python3 /mnt/c/cmder/script/python_script/pptxnote/notes2pptx'
 export DISPLAY=:0.0
 export LIBGL_ALWAYS_INDIRECT=1
 alias pkcrack='/mnt/c/Users/ishioka/Desktop/workspace/CTF/tools/pkcrack-1.2.2/src/pkcrack'
-alias chrome='chrome.exe'
+alias lmkpvc='latexmk -pvc'
