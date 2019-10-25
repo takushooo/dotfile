@@ -27,5 +27,5 @@ if [ -d "$HOME/.local/bin" ] ; then
 fi
 export PATH=$PATH:/mnt/c/cmder/script
 export PATH=$PATH:/mnt/c/Program\ Files\ \(x86\)/Google/Chrome/Application/
-export PS1="\[\e[32m\]\u@\h:\w\n\[\e[36m\][\t]\[\e[0m\] \$"
+export PS1="\[\e[32m\]\u@\h:\w\n\[\e[36m\][\t]\[\e[0m\]\$ "
 #export PS1="\[\e[36m\]\u@\w\[\e[0m\]\n$ "
