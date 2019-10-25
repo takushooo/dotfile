@@ -1,0 +1,2 @@
+# dotfile
+for wsl setting
