@@ -1,0 +1,50 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "ctrl+oem_5",              "command": "workbench.action.moveEditorToRightGroup"
+    },
+    {
+        "key": "ctrl+shift+oem_5",        "command": "workbench.action.moveEditorToLeftGroup"
+    },
+    {
+        "key": "ctrl+oem_plus",        "command": "editor.action.fontZoomIn"
+    },
+    {
+        "key": "ctrl+oem_minus",        "command": "editor.action.fontZoomOut"
+    },
+    {
+        "key": "ctrl+shift+oem_plus",        "command": "editor.action.fontZoomReset"
+    },
+    {
+        "key": "ctrl+shift+oem_minus",        "command": "editor.action.fontZoomReset"
+    },
+    {
+        "key": "ctrl+t",                    "command": "workbench.action.terminal.focus",
+    },
+    {
+        "key": "ctrl+t",                    "command": "workbench.action.focusFirstEditorGroup",
+                                            "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+t",              "command": "workbench.action.closePanel"
+    },
+    {
+        "key": "ctrl+tab",                  "command": "workbench.action.terminal.focusNext",
+                                            "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+;",                    "command": "openInTerminal",
+    },
+    {
+        "key": "ctrl+shift+;",              "command": "workbench.action.terminal.kill"
+    },
+    {
+        "key": "ctrl+u",                    "command": "workbench.action.terminal.new"
+    },
+    {
+        "key": "shift+alt+p",                     "command": "latex-workshop.view"
+    },
+    {
+        "key": "alt+p",                     "command": "latex-workshop.refresh-viewer",
+    },
+]

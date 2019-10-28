@@ -1,0 +1,13 @@
+{
+    "window.zoomLevel": 0,
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\wsl.exe",
+    "files.eol": "\n",
+    "workbench.startupEditor": "none",
+    "workbench.panel.defaultLocation": "right",
+    "latex-workshop.view.pdf.viewer": "tab",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "Dracula Soft",
+    "sync.gist": "fc16f2856d88e2451886bb1a3b89b40c",
+    "python.pythonPath": "C:\\Users\\ishioka\\AppData\\Local\\Programs\\Python\\Python37\\python.exe",
+    "C_Cpp.updateChannel": "Insiders",
+}
