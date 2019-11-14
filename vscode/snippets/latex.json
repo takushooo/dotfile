@@ -1,0 +1,83 @@
+{
+	// Place your snippets for latex here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// },
+	"report-template": {
+		"prefix": "report",
+		"body": [
+			"\\documentclass{jsarticle}",
+			"\n\\usepackage[top=30truemm,bottom=30truemm,left=30truemm,right=30truemm]{geometry}",
+			"\\usepackage{url}",
+			"\\usepackage[dvipdfmx]{graphicx}",
+			"\\usepackage{multicol}",
+			"\\usepackage{listings}",
+			"\n\\begin{document}",
+			"\\lstset{%",
+			"\tlanguage={Python},",
+			"\tbasicstyle={\\tiny},%",
+			"\t%identifierstyle={\\normal},%",
+			"\tcommentstyle={\\tiny},%",
+			"\t%keywordstyle={\\normal\\bfseries},%",
+			"\t%ndkeywordstyle={\\normal},%",
+			"\t%stringstyle={\\normal\\ttfamily},",
+			"\tframe={tb},",
+			"\tbreaklines=true,",
+			"\tcolumns=[l]{fullflexible},%",
+			"\t%numbers=left,%",
+			"\t%xrightmargin=0zw,%",
+			"\t%xleftmargin=3zw,%",
+			"\t%numberstyle={\\scriptsize},%",
+			"\t%stepnumber=1,",
+			"\t%numbersep=1zw,%",
+			"\t%lineskip=-0.5ex%",
+			"}",
+			"\n\\large",
+			"\n\\title{${1:title}}",
+			"\\author{学籍番号: 33E19002 \\hspace{1pt} 氏名: 石岡 卓将 \\hspace{1pt} (情報ネットワーク学専攻)}",
+			"\\西暦",
+			"\\date{${2:\\today}}",
+			"\\maketitle",
+			"\n$3",
+			"\n\\end{document}"
+		],
+	},
+	"meeting-template": {
+		"prefix": "meeting",
+		"body": [
+			"\\documentclass[10pt, a4paper, twocolumn]{jarticle}",
+			"\n\\usepackage[dvipdfmx]{graphicx}",
+			"\\usepackage{amsmath,amssymb}",
+			"\\usepackage{cases}",
+			"\\usepackage{moreverb}",
+			"\\usepackage{url}",
+			"\\usepackage{color}",
+			"\n\\oddsidemargin -0.54cm",
+			"\\textwidth 17.0cm",
+			"\\topmargin -1.54cm",
+			"\\headheight 0.5cm",
+			"\\headsep 0.5cm",
+			"\\textheight 25.7cm",
+			"\\footskip 1.0cm",
+			"\n\\renewcommand{\\baselinestretch}{0.8} % 1.0 が標準",
+			"\n\\begin{document}",
+			"\n\\large",
+			"\n\\title{${1:title}}",
+			"\\author{学籍番号: 33E19002 \\hspace{1pt} 氏名: 石岡 卓将 \\hspace{1pt} (情報ネットワーク学専攻)}",
+			"\\西暦",
+			"\\date{${2:\\today}}",
+			"\\maketitle",
+			"\n$3",
+			"\n\\end{document}"
+		],
+	}
+}
